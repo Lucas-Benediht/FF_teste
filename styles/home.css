@@ -1,0 +1,50 @@
+.container-imagens-l1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container-imagens-l2 {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.container-imagens-l1 a{
+    color: #E5E5E5;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-align: center;
+    text-decoration: none;
+}
+.container-imagens-l2 a{
+    color: #E5E5E5;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.imagem__lutas-l1{
+   width: 85%;
+   border-radius: 1rem;
+
+}
+
+.imagem__lutas-l2{
+    width: 63%;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+ }
+
+ .imagem__lutas-l1:hover, 
+ .imagem__lutas-l2:hover {
+    transform: scale(1.1);
+}

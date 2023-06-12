@@ -1,11 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+@import url(./home.css);
+
 @import url(./tier.css);
 
 :root{
     --cor-branca:#E5E5E5;
+    --cor-preta: #000000;
     --cor-fundo: #00030C;
     --cor-dourada: #F2C46D;
     --cor-roxo: #580259;
+
+    --fonte-principal: 'Noto sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .body{
@@ -20,7 +31,7 @@
     background-color: var(--cor-fundo);
 }
 .cabecalho__inicio{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-branca);
@@ -28,7 +39,7 @@
 }
 
 .cabecalho__tier{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-branca);
@@ -36,99 +47,11 @@
 }
 
 .cabecalho__lutas{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-branca);
     padding: 20px;
 }
 
-.principal{
-    background-color: var(--cor-preta);
-}
-.principal__titulo{
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-branca);
-}
-
-.principal__subtitulo{
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-branca);
-}
-
-.p9s{
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-branca);
-}
-
-.p9s__paragrafo{
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-dourada);
-    text-align: center;
-    font-size: 68px;
-}
-
-.p9s__toolbox{
-    display: block;
-    text-align: center;
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-dourada);
-    font-size: 50px;  
-}
-
-.p9s__video{
-    display: flex;
-    align-items: center;
-    margin:0 auto;
-    margin-top: 2em;
-    padding: 1%;
-    
-}
-
-.p9s__subtitulo{
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-dourada);
-    text-align: center;
-    font-size: 50px;
-}
-
-.p9s__paragrafo2{
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-dourada);
-    text-align: center;
-    font-size: 30px;
-}
-
-.p9s__brinco,
-.p9s__colar,
-.p9s__bracelete,
-.p9s__anel,
-.p9s__livro{
-    transition: transform 0.3s ease;
-}
-.p9s__brinco:hover,
-.p9s__colar:hover,
-.p9s__bracelete:hover,
-.p9s__anel:hover,
-.p9s__livro:hover{
-    transform: scale(1.2);
-}
-
-.p9s__itens{
-    display: flex;
-    align-items: center;
-    gap: 1.2em;
-    padding: 0.8em;
-}
-.p9s__livro{
-    width: 128px;
-    height: 128px;
-}
-
-.p9s__boss{
-    width: 70%;
-    height: 70%;
-    display: block;
-    margin: 0% auto;
-    margin-top: 0;
 }
