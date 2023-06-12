@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url(./tier.css);
 
 :root{
     --cor-branca:#E5E5E5;
-    --cor-preta: #000000;
+    --cor-fundo: #00030C;
+    --cor-dourada: #F2C46D;
+    --cor-roxo: #580259;
 }
 
 .body{
-    background-color: #000000;
+    background-color:   var(--cor-fundo);
 }
 
 .cabecalho{
@@ -14,7 +17,7 @@
 }
 
 .cabecalho__menu{
-    background-color: #000000;
+    background-color: var(--cor-fundo);
 }
 .cabecalho__inicio{
     font-family: 'Noto Sans', sans-serif;
@@ -48,42 +51,84 @@
     color: var(--cor-branca);
 }
 
-.principal__titulo2{
+.principal__subtitulo{
     font-family: 'Noto Sans', sans-serif;
     color: var(--cor-branca);
 }
 
-.principal__paragrafo1{
+.p9s{
     font-family: 'Noto Sans', sans-serif;
     color: var(--cor-branca);
 }
 
-.principal__p9{
+.p9s__paragrafo{
     font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-branca);
+    color: var(--cor-dourada);
     text-align: center;
+    font-size: 68px;
 }
 
-.principal__p10{
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-branca);
-    text-align: center; 
-}
-
-.principal__p11{
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-branca);
+.p9s__toolbox{
+    display: block;
     text-align: center;
-}
-
-.principal__p12{
     font-family: 'Noto Sans', sans-serif;
-    color: var(--cor-branca);
-    text-align: center;
+    color: var(--cor-dourada);
+    font-size: 50px;  
 }
 
-
-.imagem__nove img{
-    padding-left: 25%;
+.p9s__video{
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+    margin-top: 2em;
+    padding: 1%;
     
+}
+
+.p9s__subtitulo{
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--cor-dourada);
+    text-align: center;
+    font-size: 50px;
+}
+
+.p9s__paragrafo2{
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--cor-dourada);
+    text-align: center;
+    font-size: 30px;
+}
+
+.p9s__brinco,
+.p9s__colar,
+.p9s__bracelete,
+.p9s__anel,
+.p9s__livro{
+    transition: transform 0.3s ease;
+}
+.p9s__brinco:hover,
+.p9s__colar:hover,
+.p9s__bracelete:hover,
+.p9s__anel:hover,
+.p9s__livro:hover{
+    transform: scale(1.2);
+}
+
+.p9s__itens{
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+    padding: 0.8em;
+}
+.p9s__livro{
+    width: 128px;
+    height: 128px;
+}
+
+.p9s__boss{
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 0% auto;
+    margin-top: 0;
 }
