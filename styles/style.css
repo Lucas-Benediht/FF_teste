@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+@import url(./home.css);
+@import url(./tier.css);
 
 :root{
     --cor-branca:#E5E5E5;
     --cor-preta: #000000;
+
+    --fonte-principal: 'Noto sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .body{
@@ -17,7 +26,7 @@
     background-color: #000000;
 }
 .cabecalho__inicio{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-branca);
@@ -25,7 +34,7 @@
 }
 
 .cabecalho__tier{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-branca);
@@ -33,7 +42,7 @@
 }
 
 .cabecalho__lutas{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-branca);
@@ -44,46 +53,41 @@
     background-color: var(--cor-preta);
 }
 .principal__titulo{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
 }
 
-.principal__titulo2{
-    font-family: 'Noto Sans', sans-serif;
+.principal__subtitulo{
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
 }
 
 .principal__paragrafo1{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
 }
 
 .principal__p9{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
     text-align: center;
 }
 
 .principal__p10{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
     text-align: center; 
 }
 
 .principal__p11{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
     text-align: center;
 }
 
 .principal__p12{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
     text-align: center;
 }
 
-
-.imagem__nove img{
-    padding-left: 25%;
-    
-}
