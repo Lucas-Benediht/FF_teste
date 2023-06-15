@@ -39,6 +39,7 @@
     font-weight: 600;
     color: var(--cor-branca);
     padding: 20px;
+    text-decoration: none;
 }
 
 .cabecalho__menu-navegacao:hover {
