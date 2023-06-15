@@ -1,0 +1,29 @@
+.p10s__upgrade{
+    width: 128px;
+    height: 128px;
+}
+.p10s__upgrade{
+    transition: transform 0.3s ease;
+}
+.p10s__upgrade:hover{
+    transform: scale(1.2);
+}
+
+.p10s__disco{
+    width: 128px;
+    height: 128px;
+}
+
+.p10s__disco{
+    transition: transform 0.3s ease;
+}
+.p10s__disco:hover{
+    transform: scale(1.2);
+}
+
+.p10s__disco{
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+    padding: 0.8em;
+}

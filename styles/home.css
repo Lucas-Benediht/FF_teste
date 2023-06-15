@@ -35,6 +35,7 @@
 .imagem__lutas-l1{
    width: 85%;
    border-radius: 1rem;
+   transition: transform 0.3s ease;
 
 }
 
