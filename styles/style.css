@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
 @import url(./home.css);
-@import url(./tier.css);
+@import url(./p9s.css);
 @import url(./p10s.css);
 
 :root{
@@ -20,7 +20,7 @@
 }
 
 .body{
-    background-color:   var(--cor-fundo);
+    background: var(--cor-fundo);
 }
 
 .cabecalho{
@@ -28,37 +28,12 @@
 }
 
 .cabecalho__menu{
-    background-color: var(--cor-fundo);
+    background: var(--cor-fundo);
 }
-.cabecalho__inicio{
+.cabecalho__menu-navegacao{
     font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-branca);
     padding: 20px;
 }
-
-.cabecalho__tier{
-    font-family: var(--fonte-principal);
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--cor-branca);
-    padding: 20px;
-}
-
-.cabecalho__p10s{
-    font-family: var(--fonte-principal);
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--cor-branca);
-    padding: 20px;
-}
-
-.cabecalho__lutas{
-    font-family: var(--fonte-principal);
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--cor-branca);
-    padding: 20px;
-}
-

@@ -1,8 +1,3 @@
-
-
-.principal{
-    background-color: var(--cor-preta);
-}
 .principal__titulo{
     display: flex;  
     justify-content: center;
@@ -29,7 +24,6 @@
 
 .p9s__paragrafo2{
     font-size: 10px;
-
 }
 
 .p9s__toolbox{
@@ -42,8 +36,6 @@
 }
 
 /*estilo do botão*/
-
- 
 
 .p9s__toolbox {
     justify-content: center;
