@@ -2,22 +2,22 @@
 .principal__titulo{
     display: flex;  
     justify-content: center;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
 }
 
 .principal__subtitulo{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
 }
 
 .p9s{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-branca);
 }
 
 .p9s__paragrafo{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-dourada);
     text-align: center;
     font-size: 68px;
@@ -32,7 +32,7 @@
     display: flex;
     justify-content: center;
     margin: 80px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-dourada);
     font-size: 50px;  
 }
@@ -155,14 +155,14 @@
     border: thick double var(--cor-dourada);
 }
 .p9s__subtitulo{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-dourada);
     text-align: center;
     font-size: 50px;
 }
 
 .p9s__paragrafo2{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--fonte-principal);
     color: var(--cor-dourada);
     text-align: center;
     font-size: 30px;
@@ -199,4 +199,58 @@
     display: block;
     margin: 0% auto;
     margin-top: 0;
+}
+
+.footer {
+  background-color: var(--cor-fundo);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.redes{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  color: var(--cor-dourada);
+  padding: 15px;
+}
+.discord{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--cor-branca);
+  font-family: var(--fonte-principal);
+  text-decoration: none;
+  width: 10%;
+  height: 10%;
+}
+
+.logo__discord{
+  width: 43.73px;
+  width: 43.73px;
+  padding: 4px; 
+}
+
+.trial{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--cor-branca);
+  font-family: var(--fonte-principal);
+  text-decoration: none;
+  width: 10%;
+  height: 10%;
+}
+.trial :hover{
+  color: var(--cor-dourada);
+}
+.logo__ff{
+  width: 43.73px;
+  width: 43.73px; 
+  padding: 4px;
 }
