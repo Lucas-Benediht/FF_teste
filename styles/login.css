@@ -1,0 +1,45 @@
+.corpo{
+    background-color: var(--cor-fundo);
+}
+.login{
+    background-color: var(--cor-branca);
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login__informacao{
+    text-align: center;
+    color: black;
+    font-family: var(--fonte-principal);
+}
+
+.login__email,
+.login__senha{
+    width: 100%;
+    height: 45px;
+    border: 1px solid;
+    padding-left: 10px;
+    border-radius: 0.875em;
+}
+
+.login__entrar{
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    background: var(--cor-dourada);
+    font-weight: 700;
+    border-radius: 0.875em;
+}
+
+.corpo__retornar{
+    color: var(--cor-branca);
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    text-decoration: none;
+}
