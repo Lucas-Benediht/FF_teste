@@ -15,37 +15,28 @@
 }
 
 .container-imagens-l1 a{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
     color: #E5E5E5;
     font-family: var(--fonte-principal);
     font-weight: 500;
     font-size: 1.125rem;
-    align-items: center;
+    text-align: center;
     text-decoration: none;
 }
 .container-imagens-l2 a{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
     color: #E5E5E5;
     font-family: var(--fonte-principal);
     font-weight: 500;
     font-size: 1.125rem;
-    align-items: center;
+    text-align: center;
     text-decoration: none;
-}
-
-.container-imagens-l1 a:hover,
-.container-imagens-l2 a:hover{
-  color: var(--cor-dourada);
+    transition: transform 0.3s ease;
 }
 
 .imagem__lutas-l1{
    width: 85%;
    border-radius: 1rem;
-   transition: transform 0.3s ease;
+   transition: transform 0.3s ease; 
+
 }
 
 .imagem__lutas-l2{

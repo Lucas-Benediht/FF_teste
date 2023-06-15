@@ -10,12 +10,15 @@
     </style>
 </head>
 <body class="corpo">
+    <a class="corpo__retornar" href="index.html">Retornar para pagina inicial</a>
     <form class="login">
         <h3 class="login__informacao">Login de usuário</h3>
-            <input type="text" name="email" placeholder="Seu e-mail..." class="login__email"/>
-            <input type="password" name="senha" placeholder="Sua senha..."class="login__senha"/>
-            <input type="submit" name="acao" value="Login" class="login__entrar"/>
-
+        <div class="login__container">
+            <input type="text" name="email" placeholder="Seu e-mail..." class="login__email" id="login"/>
+            <input type="password" name="senha" placeholder="Sua senha..."class="login__senha"/ id="senha">
+            <input type="submit" onclick="logar()"name="acao" value="Login" class="login__entrar"/>
+        </div>
     </form>
 </body>
+<script src="login.js"></script>
 </html>
