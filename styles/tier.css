@@ -1,8 +1,4 @@
 
-
-.principal{
-    background-color: var(--cor-preta);
-}
 .principal__titulo{
     display: flex;  
     justify-content: center;
@@ -42,8 +38,6 @@
 }
 
 /*estilo do botão*/
-
- 
 
 .p9s__toolbox {
     justify-content: center;

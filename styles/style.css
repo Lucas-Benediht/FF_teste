@@ -20,7 +20,7 @@
 }
 
 .body{
-    background-color:   var(--cor-fundo);
+    background: var(--cor-fundo);
 }
 
 .cabecalho{
@@ -28,37 +28,17 @@
 }
 
 .cabecalho__menu{
-    background-color: var(--cor-fundo);
+    background: var(--cor-fundo);
 }
-.cabecalho__inicio{
+.cabecalho__menu-navegacao{
     font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-branca);
     padding: 20px;
+    text-decoration: none;
 }
 
-.cabecalho__tier{
-    font-family: var(--fonte-principal);
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--cor-branca);
-    padding: 20px;
+.cabecalho__menu-navegacao:hover {
+    color: var(--cor-dourada)
 }
-
-.cabecalho__p10s{
-    font-family: var(--fonte-principal);
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--cor-branca);
-    padding: 20px;
-}
-
-.cabecalho__lutas{
-    font-family: var(--fonte-principal);
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--cor-branca);
-    padding: 20px;
-}
-
