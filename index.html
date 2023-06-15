@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Final fantasy</title>
+    <title>Site Final fantasy</title>   
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body class="body">
@@ -19,35 +19,53 @@
             <a class="cabecalho__menu-baixar" href="https://freetrial.finalfantasyxiv.com/na/download" target="_blank">Baixar</a>               
         </div>
     </header>
+
     <main>
         <h1 class="principal__titulo">Bem vindo à página inicial</h1>  
-        <section class="container-imagens">
-            <div class="container-imagens-l1">
-                <a href="p9s.html" class="container-imagens-navegacao">
-                    <img src="./assets/img/p9_boss.png" alt="Foto da luta n° 12 parte 1" class="imagem__lutas-l1"><br>
-                    <span class="imagem__lutas-titulo">Luta do P9S</span>
-                </a>
-                <a href="p10s.html" class="container-imagens-navegacao">
-                    <img src="./assets/img/p10_boss.png" alt="Foto da luta n° 12 parte 1" class="imagem__lutas-l1"><br>
-                    <span class="imagem__lutas-titulo">Luta do P10S</span>
-                </a>
-                <a href="#" class="container-imagens-navegacao">
-                    <img src="./assets/img/p11_boss.png" alt="Foto da luta n° 12 parte 1" class="imagem__lutas-l1"><br>
-                    <span class="imagem__lutas-titulo">Luta do P11S</span>
-                </a>
-            </div>
+        <div class="container-slides">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                <input type="radio" name="slide" id="slide5">
 
-            <div class="container-imagens-l2">
-                <a href="#" class="container-imagens-navegacao">
-                    <img src="./assets/img/p12_boss.png" alt="Foto da luta n° 12 parte 1" class="imagem__lutas-l2"><br>
-                    <span class="imagem__lutas-titulo">Luta do P12S Phase 1</span>
-                </a>
-                <a href="#" class="container-imagens-navegacao">
-                    <img src="./assets/img/p12_phase2_boss.png" alt="Foto da luta n° 12 parte 1" class="imagem__lutas-l2"><br>
-                    <span class="imagem__lutas-titulo">Luta do P12S Phase 2</span>
-                </a>
+                <div class="slide s1">
+                    <a href="p9s.html" class="container-imagens-navegacao">
+                        <img src="./assets/img/p9_boss.png" alt="Foto da luta n° 9" class="imagem__lutas"><br>
+                    </a>
+                </div>
+                <div class="slide s2">
+                    <a href="p10s.html" class="container-imagens-navegacao">
+                        <img src="./assets/img/p10_boss.png" alt="Foto da luta n° 10" class="imagem__lutas"><br>
+                    </a>
+                </div>
+                <div class="slide s3">
+                    <a href="#" class="container-imagens-navegacao">
+                        <img src="./assets/img/p11_boss.png" alt="Foto da luta n° 11" class="imagem__lutas"><br>
+                    </a>
+                </div>
+                <div class="slide s4">
+                    <a href="#" class="container-imagens-navegacao">
+                        <img src="./assets/img/p12_boss.png" alt="Foto da luta n° 12 parte 1" class="imagem__lutas"><br>
+                    </a>
+                </div>
+                <div class="slide s5">
+                    <a href="#" class="container-imagens-navegacao">
+                        <img src="./assets/img/p12_phase2_boss.png" alt="Foto da luta n° 12 parte 2" class="imagem__lutas"><br>
+                    </a>
+                </div>
+
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+                </div>
             </div>
         </section>
     </main>
+    <script src="./js/script.js"></script>
 </body>
 </html>
