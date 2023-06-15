@@ -1,3 +1,4 @@
+
 .principal__titulo{
     display: flex;  
     justify-content: center;
@@ -24,6 +25,7 @@
 
 .p9s__paragrafo2{
     font-size: 10px;
+
 }
 
 .p9s__toolbox{
