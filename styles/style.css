@@ -1,8 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans:wght@300&display=swap');
+
 @import url(./home.css);
-@import url(./tier.css);
+@import url(./p9s.css);
 @import url(./p10s.css);
+@import url(./login.css);
 
 :root{
     --cor-branca:#E5E5E5;
@@ -12,6 +14,7 @@
     --cor-roxo: #580259;
 
     --fonte-principal: 'Noto sans';
+    --fonte-secundaria:'Open Sans';
 }
 
 * {
@@ -31,7 +34,19 @@
     background: var(--cor-fundo);
 }
 .cabecalho__menu-navegacao{
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-secundaria);;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-branca);
+    padding: 20px;
+}
+
+.cabecalho__menu-navegacao:hover {
+    color: var(--cor-dourada)
+}
+
+.cabecalho__menu-navegacaoright{
+    font-family: var(--fonte-secundaria);;
     font-size: 24px;
     font-weight: 600;
     color: var(--cor-branca);
@@ -39,6 +54,21 @@
     text-decoration: none;
 }
 
-.cabecalho__menu-navegacao:hover {
-    color: var(--cor-dourada)
+
+.cabecalho__menu-baixar,
+.cabecalho__menu-login{
+    font-family: var(--fonte-secundaria);;
+    font-size: 24px;
+    color: var(--cor-branca);
+    padding: 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.cabecalho__menu-baixar{
+    float: right;
+    background-color: var(--cor-dourada);
+    color: var(--cor-fundo);
+    text-decoration: none;
+    font-weight: 700;
 }
