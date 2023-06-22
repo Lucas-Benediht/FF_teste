@@ -1,10 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
 @import url(./home.css);
 @import url(./p9s.css);
 @import url(./p10s.css);
-@import url(./login.css);
 
 :root{
     --cor-branca:#E5E5E5;
@@ -15,6 +13,7 @@
 
     --fonte-principal: 'Noto sans';
     --fonte-secundaria:'Open Sans';
+    --fonte-login:'Poppins';
 }
 
 * {
