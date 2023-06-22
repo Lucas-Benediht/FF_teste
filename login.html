@@ -3,19 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Tela de login</title>
-    <style>
-        *{margin: 0;padding: 0;box-sizing: border-box;}
-    </style>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <title>Tela de Login</title>
 </head>
-<body class="corpo">
-    <form class="login">
-        <h3 class="login__informacao">Login de usuário</h3>
-            <input type="text" name="email" placeholder="Seu e-mail..." class="login__email"/>
-            <input type="password" name="senha" placeholder="Sua senha..."class="login__senha"/>
-            <input type="submit" name="acao" value="Login" class="login__entrar"/>
+<body>
 
-    </form>
+    <div class="container">
+        <div class="form__login">
+            <span class="titulo">Login</span>
+
+            <form action="#" class="caixa">
+                <div class="input-field">
+                    <input type="text" placeholder="Digite seu email..." required id="login">
+                    <i class="uil uil-envelope"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="Digite sua senha..." required id="senha">
+                    <i class="uil uil-lock icon"></i>
+                    <i class="uil uil-eye-slash showHidePw"></i>
+                </div>
+
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="LogCheck">
+                        <label for="LogCheck" class="text">Lembrar dados</label>
+                    </div>
+
+                    <a href="#" class="text">Esqueceu a senha?</a>
+                </div>
+
+                <div class="input-field button">
+                    <input type="button" value="Login" onclick="logar()">
+
+                </div>
+
+                <div class="login-signup">
+                    <span class="text">Não é cadastrado?
+                        <a href="#" class="text-signup">Se cadastre</a>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>    
 </body>
+<script src="login.js"></script>
 </html>
